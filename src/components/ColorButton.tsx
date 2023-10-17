@@ -1,7 +1,5 @@
-import { Dispatch, SetStateAction } from 'react';
-
 const ColorButton: React.FC<{
-  setbgColor: (color: string) => Dispatch<SetStateAction<string>>;
+  setbgColor: (color: string) => void;
   bgColor: string;
 }> = ({ bgColor, setbgColor }) => {
   const colors = ['red', 'blue', 'green', 'purple', 'black'];

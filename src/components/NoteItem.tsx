@@ -1,5 +1,5 @@
 import React from 'react';
-import { NoteType } from '../redux/notes/notesSlice';
+import { NoteType } from '../redux/notes/NotesSlice';
 
 const NoteItem: React.FC<{ items: NoteType[]; focus: boolean }> = ({
   items,

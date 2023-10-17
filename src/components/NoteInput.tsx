@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ColorButton from './ColorButton';
-import { addNote } from '../redux/notes/notesSlice';
+import { addNote } from '../redux/notes/NotesSlice';
 import { RootState } from '../redux/Store';
 
 const NoteInput = () => {

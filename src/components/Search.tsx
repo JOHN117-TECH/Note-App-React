@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../redux/Store';
-import { setSearchText } from '../redux/notes/notesSlice';
+import { setSearchText } from '../redux/notes/NotesSlice';
 import { ChangeEvent } from 'react';
 
 const Search = () => {
